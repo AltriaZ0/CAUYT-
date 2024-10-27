@@ -1,0 +1,11 @@
+l=eval(input())
+l=int(l)
+w=eval(input())
+sum=10
+if(l>3):
+    sum+=(l-3)*2
+if(l>13):
+    sum+=(l-13)*1
+if(w>5):
+    sum+=round(w/5)*2
+print(sum)
